@@ -1,0 +1,58 @@
+.headerImg {
+  position: relative;
+}
+.right-home {
+  position: absolute;
+  top: 80px;
+  right: 150px;
+}
+.overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #1d1e44);
+  padding: 2.5rem 1.5rem;
+  border-radius: 15px;
+  width: 500px;
+}
+.title h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: -30px;
+}
+.title p {
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.btn-downloads {
+  display: grid;
+  grid-template-columns: 220px 220px;
+  gap: 1rem;
+}
+
+.btn-downloads button {
+  padding: 15px 15px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-white {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.left-home {
+  position: absolute;
+  top: 110px;
+  left: 150px;
+}
+.left-home img {
+  width: 500px;
+  height: 700px;
+}
