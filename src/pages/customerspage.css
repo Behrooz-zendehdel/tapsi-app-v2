@@ -1,0 +1,49 @@
+.header-customer {
+  margin: 2rem 10rem;
+  height: 80vh;
+}
+.header-customer span {
+  padding-left: 2rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header-location {
+  display: flex;
+  justify-content: space-between;
+}
+.right-location {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.title-loaction label {
+  margin-top: 1rem;
+  display: block;
+}
+.title-left {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin-top: 2rem;
+}
+.title-border {
+  width: 320px;
+  height: 1px;
+  border: 1px solid gray;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 3rem;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  transform: scale(1.2);
+  opacity: 0.5;
+}

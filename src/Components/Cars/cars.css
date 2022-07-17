@@ -1,0 +1,93 @@
+.topsection h1 {
+  margin: 10rem 10rem 1rem 0;
+  font-size: 40px;
+}
+.services {
+  margin: 1rem 10rem;
+  display: flex;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.itemImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+}
+.line p {
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.itemImage img {
+  width: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.itemImage img:hover {
+  opacity: 1;
+}
+.tapsi-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.tapsi-desc h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.tapsi-desc p {
+  font-size: 18px;
+  color: gray;
+}
+.tapsi-image {
+  width: 80px;
+  height: 80px;
+  width: 50%;
+}
+.tapsi-image img {
+  width: 100%;
+}
+.desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.desc-right {
+  width: 30%;
+  height: 100%;
+  margin: 0 10rem;
+}
+.desc-right h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 3rem 0;
+}
+.desc-right p {
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 5rem;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.desc-left {
+  width: 50%;
+  height: 100%;
+}
+
+.desc-left img {
+  width: 70%;
+}

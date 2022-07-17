@@ -7,13 +7,18 @@ import { AiOutlineCar } from "react-icons/ai";
 import headerImage from "../assets/header.tapsi.webp";
 import mobile from "../assets/mobile.tapsi.webp";
 import "./homePage.css";
-import { cars, data } from "../db/data";
+import Cars from "../Components/Cars/Cars";
+import PanelTapsi from "../Components/panel/PanelTapsi";
+import NewWeblog from "../Components/NewWeblog/NewWeblog";
+import Footer from "../Components/Footer/Footer";
+import Banner from "../Components/Banner/Banner";
 
 const HomePage = () => {
   return (
     <>
       <section>
         <Layout>
+          <Banner />
           <div className="headerImg">
             <img src={headerImage} alt="header" style={{ width: "100% " }} />
             <div className="right-home">
@@ -57,15 +62,10 @@ const HomePage = () => {
         </Layout>
       </section>
 
-      <section className="service">
-        {/* <h1>سرویس های تپسی</h1>
-        {cars.map((car) => (
-          <div className="title-service">
-            <p>{car.name}</p>
-            <img src={car.img} alt="" />
-          </div>
-        ))} */}
-      </section>
+      <Cars />
+      <PanelTapsi />
+      <NewWeblog />
+      <Footer />
     </>
   );
 };

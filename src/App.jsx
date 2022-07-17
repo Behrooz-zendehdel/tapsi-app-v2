@@ -8,6 +8,11 @@ import JobsPage from "./pages/JobsPage";
 import WeblogPage from "./pages/WeblogPage";
 import DownloadPage from "./pages/DownloadPage";
 import GhoreKeshiPage from "./pages/GhoreKeshiPage";
+import PanelPage from "./pages/PanelPage";
+import LoginPanelPage from "./pages/LoginPanelPage";
+import CopunPage from "./pages/CopunPage";
+import WebAppTapsi from "./pages/WebAppTapsi";
+import TapsiMe from "./pages/TapsiMe";
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
         <Route path="/weblog" element={<WeblogPage />} />
         <Route path="/download" element={<DownloadPage />} />
         <Route path="/ghorekeshi" element={<GhoreKeshiPage />} />
+        <Route path="/panelpage" element={<PanelPage />} />
+        <Route path="/loginpanelpage" element={<LoginPanelPage />} />
+        <Route path="/copunpage" element={<CopunPage />} />
+        <Route path="/webapptapsi" element={<WebAppTapsi />} />
+        <Route path="/tapsime" element={<TapsiMe />} />
       </Routes>
     </>
   );

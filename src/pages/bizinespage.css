@@ -1,0 +1,201 @@
+.header-bizines {
+  background: url(../assets/bizines-banner.png) no-repeat center center/cover;
+  height: 70vh;
+}
+.title-bizines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-bizines h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 8rem;
+}
+.detail-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+.detail-title span {
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-city {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(207, 207, 207);
+  background: url(../assets/iranmap.png) no-repeat center;
+  object-fit: cover;
+}
+.city {
+  display: flex;
+  padding: 3rem 10rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.tehran-city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2rem;
+  margin-bottom: 15px;
+}
+.tehran-city span {
+  margin-bottom: 10px;
+}
+.tehran-city label {
+  opacity: 0.5;
+  letter-spacing: 3px;
+}
+.panel-sazmani {
+  margin: 3rem 10rem;
+}
+.panel-sazmani h1 {
+  margin-bottom: 3rem;
+  font-size: 40px;
+}
+.title-panel-sazmani {
+  display: flex;
+}
+.title-panel-sazmani {
+  margin-bottom: 3rem;
+  font-size: 40px;
+}
+.right-panel-sazmani {
+  width: 50%;
+}
+
+.right-panel-sazmani h2 {
+  font-size: 30px;
+}
+.right-panel-sazmani p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.bullet-title ul li {
+  margin-top: 20px;
+  font-size: 18px;
+  color: gray;
+  list-style-type: square !important;
+  padding-right: 10px;
+}
+.bullet-title button {
+  padding: 8px 30px;
+  border-radius: 5px;
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 20px 5px;
+}
+.left-panel-sazmani {
+  width: 600px;
+}
+.left-panel-sazmani img {
+  width: 100%;
+}
+.btn-code {
+  padding: 8px 30px;
+  border-radius: 5px;
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 20px 5px;
+}
+
+.bullet-title p span {
+  color: rgb(71, 130, 238);
+  font-weight: 400;
+}
+.reseveData {
+  margin: 10rem 10rem;
+}
+.reseveData h2 {
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+.title-reseveData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-reseve {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.right-reseve p {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.call-reseve {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 400px;
+}
+
+.post-reseve {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.border-sider {
+  width: 1px;
+  height: 300px;
+  border: 1px solid gray;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.left-reseve {
+  padding: 20px 30px;
+}
+.input-reseve {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-reseve input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  margin-bottom: 20px;
+  display: block;
+  background-color: rgb(236, 233, 233);
+  border-radius: 10px;
+  padding: 5px 10px;
+  direction: ltr;
+}
+
+.btn-send {
+  padding: 8px 30px;
+  border-radius: 5px;
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  margin-top: 3rem;
+}

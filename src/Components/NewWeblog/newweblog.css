@@ -1,0 +1,36 @@
+.headerweblog {
+  margin: 10rem 10rem;
+}
+.headerweblog h1 {
+  margin-bottom: 3rem;
+}
+.listweblog {
+  display: flex;
+}
+.itemweblog {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem 1rem;
+  width: 33%;
+}
+.itemweblog:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+
+.itemweblog img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.itemweblog span {
+  font-size: 25px;
+  color: black;
+  margin-top: 1rem;
+}
+.itemweblog p {
+  font-size: 20px;
+  color: gray;
+  margin-top: 1rem;
+}

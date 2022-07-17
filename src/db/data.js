@@ -14,6 +14,13 @@ import tauto from "../assets/illus-autopeyk.webp";
 import tplus from "../assets/illus-plus.webp";
 import ttaxi from "../assets/illus-taxi.webp";
 import thamyar from "../assets/illus-hamyar.webp";
+import etehadie from "../assets/etehadie-no-logo-scaled.jpg";
+import digikala from "../assets/vaksan.jpeg";
+import vaksan from "../assets/vaksann.jpg";
+import imagejobs1 from "../assets/imagejobs1.webp";
+import imagejobs2 from "../assets/imagejobs2.webp";
+import imagejobs3 from "../assets/imagejobs3.webp";
+import imagejobs4 from "../assets/imagejobs4.webp";
 
 export const cars = [
   {
@@ -79,5 +86,112 @@ export const cars = [
     description:
       "سرویس همیار تپسی، به جای شما خرید می‌کند. کافیست فروشگاه مورد نظر خود را به عنوان مبدا مشخص کرده و لیست خریدتان را داخل اپ وارد کنید. این خرید‌ها می‌تواند از سوپرمارکت یا داروخانه مورد نظر شما باشند.",
     img: thamyar,
+  },
+];
+
+export const weblogTapsi = [
+  {
+    id: 1,
+    image: etehadie,
+    header: "دومین دوره انتخابات اتحادیه کسب و کارهای مجازی",
+    description:
+      "دیدگاه و اهداف میلاد منشی پور ، کاندیدای دومین دوره انتخابات اتحادیه کسب و کارهای مجازی درباره من من میلاد منشی پور و...",
+  },
+  {
+    id: 2,
+    image: digikala,
+    header: "تخفیف ویژه دیجی کالا جت برای کاربران تپسی",
+    description:
+      " سوپر مارکت آنلاین دیجی کالا جت با ارسال سریع محصولات سوپرمارکتی شروع به کار کرده است و سفارش های آنلاین(منقضی شده)",
+  },
+  {
+    id: 3,
+    image: vaksan,
+    header: "برای دریافت دز سوم واکسن ، با تخفیف به مراکز واکسیناسیون بروید !",
+    description:
+      "تپسی با همراهی شرکت سیناژن (تولید کننده واکسن اسپایکوژن ) برای رفتن به مراکز واکسیناسیون و تزریق دز سوم ، تخفیف و ...",
+  },
+];
+
+export const nameCity = [
+  {
+    name: "tehran",
+    namefa: "تهران",
+  },
+  {
+    name: "karaj",
+    namefa: "کرج",
+  },
+  {
+    name: "ardabil",
+    namefa: "اردبیل",
+  },
+  {
+    name: "yazd",
+    namefa: "یزد",
+  },
+  {
+    name: "shomal",
+    namefa: "شمال",
+  },
+  {
+    name: "Mashhad",
+    namefa: "مشهد",
+  },
+  {
+    name: "Isfahan",
+    namefa: "اصفهان",
+  },
+  {
+    name: "Shiraz",
+    namefa: "شیراز",
+  },
+  {
+    name: "Urmia",
+    namefa: "ارومیه",
+  },
+  {
+    name: "Kerman",
+    namefa: "کرمان",
+  },
+  {
+    name: "Qom",
+    namefa: "قم",
+  },
+  {
+    name: "Ahvaz",
+    namefa: "اهواز",
+  },
+  {
+    name: "Gorgan",
+    namefa: "گرگان",
+  },
+  {
+    name: "Qazvin",
+    namefa: "قزوین",
+  },
+  {
+    name: "Arak",
+    namefa: "اراک",
+  },
+  {
+    name: "Neyshabur",
+    namefa: "نیشابور",
+  },
+  {
+    name: "Sari",
+    namefa: "ساری",
+  },
+  {
+    name: "Qaem Shahr",
+    namefa: "قائم‌شهر",
+  },
+  {
+    name: "Rasht",
+    namefa: "رشت",
+  },
+  {
+    name: "Anzali",
+    namefa: "انزلی",
   },
 ];

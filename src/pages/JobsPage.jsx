@@ -1,12 +1,12 @@
-import React from 'react'
-import Layout from "../Layout/Layout";
+import React from "react";
+import NavbarJobs from "../Components/NavbarJobs/NavbarJobs";
 
 const JobsPage = () => {
   return (
     <div>
-    <Layout>this is jobs</Layout>
-  </div>
-  )
-}
+      <NavbarJobs />
+    </div>
+  );
+};
 
-export default JobsPage
+export default JobsPage;

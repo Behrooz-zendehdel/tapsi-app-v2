@@ -3,9 +3,11 @@ import Layout from "../Layout/Layout";
 
 const DownloadPage = () => {
   return (
-    <div>
-      <Layout>DownloadPage</Layout>
-    </div>
+    <Layout>
+      <div className="detail">
+        <h1>this is update page</h1>
+      </div>
+    </Layout>
   );
 };
 

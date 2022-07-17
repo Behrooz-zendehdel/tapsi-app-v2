@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 
-const WeblogPage = () => {
+const PanelPage = () => {
   return (
     <Layout>
       <div className="detail">
@@ -11,4 +11,4 @@ const WeblogPage = () => {
   );
 };
 
-export default WeblogPage;
+export default PanelPage;

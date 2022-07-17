@@ -1,7 +1,7 @@
 import React from "react";
+import "./webapptapsi.css";
 import Layout from "../Layout/Layout";
-
-const WeblogPage = () => {
+const WebAppTapsi = () => {
   return (
     <Layout>
       <div className="detail">
@@ -11,4 +11,4 @@ const WeblogPage = () => {
   );
 };
 
-export default WeblogPage;
+export default WebAppTapsi;

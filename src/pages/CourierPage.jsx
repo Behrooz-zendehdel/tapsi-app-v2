@@ -1,12 +1,17 @@
-import React from 'react'
+import React from "react";
 import Layout from "../Layout/Layout";
+import "./courierpage.css";
 
 const CourierPage = () => {
   return (
     <div>
-    <Layout>this is courier pages</Layout>
-  </div>
-  )
-}
+      <Layout>
+        <div className="detail">
+          <h1>this is update pages</h1>
+        </div>
+      </Layout>
+    </div>
+  );
+};
 
-export default CourierPage
+export default CourierPage;
