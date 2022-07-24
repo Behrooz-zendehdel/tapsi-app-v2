@@ -1,20 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./cars.css";
-import * as data from "../../db/data";
-import imageclasicc from "../../assets/illus-classic.webp";
+import { cars } from "../../db/data";
+// import imageclasicc from "../../assets/illus-classic.webp";
 
 const Cars = () => {
+  const [selected, setSelected] = useState(0);
+  const tlength = cars.length;
   return (
     <section className="topsection">
       <h1>سرویس های تپسی</h1>
       <div className="services">
-        {data.cars.map((car) => (
+        {cars.map((car) => (
           <>
             <div className="line">
-              <div className="itemImage">
-                <img src={car.image} alt={car.name} />
+              <div
+                className="itemImage"
+                onClick={() => {
+                  selected === 0
+                    ? setSelected(tlength - 1)
+                    : setSelected((prev) => prev - 1);
+                }}
+              >
+                <img src={cars[selected].image} alt={cars[selected].name} />
               </div>
-              <p>{car.name}</p>
+              <p>{cars[selected].name}</p>
             </div>
           </>
         ))}
@@ -30,7 +39,7 @@ const Cars = () => {
           </p>
         </div>
         <div className="desc-left">
-          <img src={imageclasicc} alt="" />
+          <img src={cars[selected].img} alt="" />
         </div>
       </div>
     </section>

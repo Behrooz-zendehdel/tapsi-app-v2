@@ -17,10 +17,10 @@ import thamyar from "../assets/illus-hamyar.webp";
 import etehadie from "../assets/etehadie-no-logo-scaled.jpg";
 import digikala from "../assets/vaksan.jpeg";
 import vaksan from "../assets/vaksann.jpg";
-import imagejobs1 from "../assets/imagejobs1.webp";
-import imagejobs2 from "../assets/imagejobs2.webp";
-import imagejobs3 from "../assets/imagejobs3.webp";
-import imagejobs4 from "../assets/imagejobs4.webp";
+// import imagejobs1 from "../assets/imagejobs1.webp";
+// import imagejobs2 from "../assets/imagejobs2.webp";
+// import imagejobs3 from "../assets/imagejobs3.webp";
+// import imagejobs4 from "../assets/imagejobs4.webp";
 
 export const cars = [
   {
